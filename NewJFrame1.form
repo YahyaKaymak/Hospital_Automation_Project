@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Kullan&#x131;c&#x131; Kay&#x131;t Ekran&#x131;"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[450, 150]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="333" max="32767" attributes="0"/>
+              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="312" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="HastaKayıtOl" min="-2" pref="120" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="HastaKayıtİptal" min="-2" pref="120" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Adres" max="32767" attributes="0"/>
+                              <Component id="Şifre" max="32767" attributes="0"/>
+                              <Component id="Eposta" pref="65" max="32767" attributes="0"/>
+                              <Component id="Soyad" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Ad" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="TC" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="HastaAd" alignment="0" pref="322" max="32767" attributes="0"/>
+                          <Component id="HastaSoyad" alignment="0" max="32767" attributes="0"/>
+                          <Component id="HastaEposta" pref="322" max="32767" attributes="0"/>
+                          <Component id="HastaAdres" max="32767" attributes="0"/>
+                          <Component id="HastaTC" max="32767" attributes="0"/>
+                          <Component id="HastaŞifre" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                      <Component id="Eposta" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Ad" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="HastaAd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Soyad" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="HastaSoyad" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="HastaEposta" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Adres" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="HastaAdres" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Şifre" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="HastaŞifre" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HastaTC" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="HastaKayıtOl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HastaKayıtİptal" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="166" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Ad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ad:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Soyad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Soyad:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Eposta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-Posta:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="&#x15e;ifre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x15e;ifre:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Adres">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adres:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="HastaAd">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HastaAdActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="HastaSoyad">
+    </Component>
+    <Component class="javax.swing.JTextField" name="HastaEposta">
+    </Component>
+    <Component class="javax.swing.JTextField" name="HastaAdres">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Sylfaen" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Hasta Kay&#x131;t Ekran&#x131;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="HastaKay&#x131;tOl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kay&#x131;t Ol"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HastaKay&#x131;tOlActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="HastaKay&#x131;t&#x130;ptal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x130;ptal"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HastaKay&#x131;t&#x130;ptalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="Hasta&#x15e;ifre">
+    </Component>
+    <Component class="javax.swing.JLabel" name="TC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TC. Kimlik No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="HastaTC">
+    </Component>
+  </SubComponents>
+</Form>
